@@ -1,0 +1,90 @@
+.testimonials_holder .testimonial_content_inner{
+    background-color: transparent;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.testimonials_holder .testimonial_content_inner .testimonial_image_holder{
+    margin-bottom: -60px;
+}
+.testimonials_holder .testimonial_content_inner p.testimonial_author{
+    margin-top: 49px;
+}
+.testimonials .testimonial_text_holder .testimonial_text_inner p.testimonial_author span.author_company{
+    color: white!important;
+}
+.q_tabs .tabs-nav li a{
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: none;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+.q_tabs.boxed .tabs-nav li.active a{
+    padding: 10px 20px;
+}
+
+.q_tabs.boxed .tabs-nav li a{
+    padding: 10px 20px;
+}
+.video-box-l .qode_video_box .qode_video_image::after{
+    display: none;
+}
+
+.video-box-l input.wpcf7-form-control.wpcf7-submit{
+    margin-top: 30px;
+}
+.qode_clients .qode_client_holder_inner:after{
+    bottom: -20px;
+    width: 50px;
+    left: -45px;
+}
+
+.qode_clients .qode_client_holder_inner:before{
+    right: -20px;
+    height: 50px;
+    bottom: -45px;
+}
+
+.qode_clients .qode_client_holder.border-bottom-none .qode_client_holder_inner:before{
+    display: none;
+}
+
+.qode_clients .qode_client_holder:nth-child(5n+1) .qode_client_holder_inner:after{
+    display: none;
+}
+
+.qode_clients .qode_client_holder:last-child .qode_client_holder_inner:before{
+    display: none;
+}
+
+@media only screen and (min-width:1000px) and (max-width: 1300px){
+    .qode_clients .qode_client_holder:nth-child(5n+1) .qode_client_holder_inner:before{
+        display: none;
+    }
+
+    .qode_clients .qode_client_holder:first-child .qode_client_holder_inner:before{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+    .qode_clients .qode_client_holder:nth-child(3n+1) .qode_client_holder_inner:after{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .qode_clients .qode_client_holder:nth-child(2n+1) .qode_client_holder_inner:after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .qode_clients .qode_client_holder .qode_client_holder_inner:before{
+        display: none;
+    }
+
+    .qode_clients .qode_client_holder .qode_client_holder_inner:after{
+        display: none;
+    }
+}
