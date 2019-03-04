@@ -1,0 +1,11 @@
+/*=========== REV SLIDER ===========*/
+#rev_slider_1_1 .zeus .tp-tab-title{
+    border-right: 4px solid #bcbcbf;
+    text-align: right;
+    line-height: 19px;
+}
+
+#rev_slider_1_1 .zeus .tp-tab:hover .tp-tab-title, #rev_slider_1_1 .zeus .tp-tab.selected .tp-tab-title{
+    color: #ffffff;
+    border-right-color: $red;
+}

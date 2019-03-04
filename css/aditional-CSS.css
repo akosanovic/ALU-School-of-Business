@@ -1,0 +1,158 @@
+/*=========== ICONS ===========*/
+/* Back To Top */
+#back_to_top:hover span {
+  background-color: #d00d2d;
+  border-color: #d00d2d;
+}
+#back_to_top span i {
+  padding-right: 1px;
+  font-size: 24px;
+}
+#back_to_top .fa {
+  font-family: ElegantIcons;
+  font-style: normal;
+}
+#back_to_top .fa:before {
+  content: '\21';
+}
+
+.icon_social_holder .qode_print .eltd-printer-title,
+.icon_social_holder .qode_like a.qode-like {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #666666;
+}
+.icon_social_holder .qode_print .eltd-printer-title:hover:before,
+.icon_social_holder .qode_like a.qode-like:hover:before {
+  color: #d00d2d;
+}
+
+/* VIDEO Play button */
+.qode_video_box .qode_video_image .qode_video_box_button {
+  background-color: #d00d2d;
+}
+.qode_video_box .qode_video_image .qode_video_box_button:hover {
+  background-color: #e51033;
+}
+.qode_video_box .qode_video_image .qode_video_box_button .qode_video_box_button_arrow {
+  transform: translate(-35%, -50%);
+  -webkit-transform: translate(-35%, -50%);
+}
+
+/*=========== REV SLIDER ===========*/
+#rev_slider_1_1 .zeus .tp-tab-title {
+  border-right: 4px solid #bcbcbf;
+  text-align: right;
+  line-height: 19px;
+}
+
+#rev_slider_1_1 .zeus .tp-tab:hover .tp-tab-title, #rev_slider_1_1 .zeus .tp-tab.selected .tp-tab-title {
+  color: #ffffff;
+  border-right-color: #d00d2d;
+}
+
+/*=========== FOOTER ===========*/
+footer .custom_font_holder {
+  color: #000 !important;
+}
+footer .footer_top .widget_recent_entries > ul > li {
+  padding: 0 0 0;
+}
+
+/*=========== SIDE MENU ===========*/
+.side_menu {
+  /* Section Title */
+}
+.side_menu .widget li {
+  margin: 0 0 7px;
+}
+.side_menu h3 {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+.side_menu .page-summary .latest_post:hover h4 {
+  color: #d00d2d;
+}
+.side_menu .page-summary h4 {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.side_menu .page-summary span.post_infos {
+  display: block;
+  max-height: 66px;
+  color: #888;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: unset;
+}
+.side_menu .call_to_action {
+  padding-left: 0;
+}
+.side_menu .call_to_action .qbutton {
+  left: 0;
+  right: unset !important;
+  height: unset;
+  padding: 25px 30px;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.side_menu .call_to_action .qbutton:hover {
+  background-color: #e51033 !important;
+}
+
+/*=========== TESTIMONIALS ===========*/
+.testimonials_wrapper {
+  background-color: #d00d2d;
+}
+
+#bitnami-banner {
+  display: none;
+}
+
+.qode_clients .qode_client_holder_inner:before, .qode_clients .qode_client_holder_inner:after {
+  border-color: rgba(234, 234, 234, 0.3);
+}
+
+aside.sidebar .latest_post_holder.image_in_box .latest_post_text .latest_post_title a {
+  font-weight: 600;
+}
+
+.social_share_title {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+div.comment_form {
+  display: inline-block;
+  margin: 0 0 100px;
+  width: 100%;
+}
+
+aside .widget li {
+  margin: 0 0 7px;
+}
+
+aside.sidebar .qode_latest_posts_widget h5, aside.sidebar .widget_categories h5 {
+  font-size: 20px;
+}
+
+aside .widget h5 {
+  margin-bottom: 30px;
+}
+
+.latest_post_inner .post_infos {
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}

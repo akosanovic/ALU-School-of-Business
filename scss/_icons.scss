@@ -1,0 +1,51 @@
+
+/*=========== ICONS ===========*/
+
+/* Back To Top */
+#back_to_top {
+    &:hover {
+        span {
+            background-color: $red;
+            border-color: $red;
+        }
+    }
+    span i {
+        padding-right: 1px;
+        font-size: 24px;
+    }
+    .fa{
+        font-family: ElegantIcons;
+        font-style: normal;
+        &:before {
+            content: '\21';
+        }
+    }
+} // #back_to_top
+
+
+.icon_social_holder {
+    .qode_print .eltd-printer-title,
+    .qode_like a.qode-like {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #666666;
+        &:hover:before {
+            color: $red;
+
+        }
+    }
+} 
+
+
+
+/* VIDEO Play button */
+.qode_video_box .qode_video_image .qode_video_box_button {
+    background-color: $red;
+    &:hover {
+        background-color: $red-hover; 
+    } 
+    .qode_video_box_button_arrow {
+        transform: translate(-35%,-50%);
+        -webkit-transform: translate(-35%,-50%);
+    }
+}
