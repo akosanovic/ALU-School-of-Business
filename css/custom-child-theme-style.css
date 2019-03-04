@@ -1,0 +1,80 @@
+.qode_video_box .qode_video_image .qode_video_box_button_arrow{
+    transform: translate(-35%,-50%);
+    -webkit-transform: translate(-35%,-50%);
+    }
+    #back_to_top span i{
+        padding-right: 1px;
+    }
+    #back_to_top .fa{
+        font-family: ElegantIcons;
+        font-style: normal;
+    }
+    
+    #back_to_top span i{
+        font-size: 24px;
+    }
+    
+    #back_to_top .fa:before{
+        content: '\21';
+    }
+    .qode_clients .qode_client_holder_inner:before, .qode_clients .qode_client_holder_inner:after{
+    border-color: rgba(234,234,234,.3)
+    }
+    
+    
+    aside.sidebar .latest_post_holder.image_in_box .latest_post_text .latest_post_title a{
+        font-weight: 600;
+    }
+    
+    .social_share_title {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #666666;
+    }
+    .icon_social_holder .qode_print .eltd-printer-title,.icon_social_holder .qode_like a.qode-like{
+        display: inline-block;
+        text-transform: uppercase;
+        color: #666666
+    }
+    .icon_social_holder .qode_like a.qode-like:hover:before{
+        color: #21ab64;
+    }
+    
+    div.comment_form {
+        display: inline-block;
+        margin: 0 0 100px;
+        width: 100%;
+    }
+    
+    .side_menu .widget li, aside .widget li {
+        margin: 0 0 7px;
+    }
+    
+    aside.sidebar .qode_latest_posts_widget h5, aside.sidebar .widget_categories h5 {
+        font-size: 20px;
+    }
+    
+    aside .widget h5 {
+        margin-bottom: 30px;
+    }
+    
+    .latest_post_inner .post_infos {
+        display: block;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    #rev_slider_1_1 .zeus .tp-tab-title{
+        border-right: 4px solid #bcbcbf;
+        text-align: right;
+        line-height: 19px;
+    }
+    
+    #rev_slider_1_1 .zeus .tp-tab:hover .tp-tab-title, #rev_slider_1_1 .zeus .tp-tab.selected .tp-tab-title{
+        color: #ffffff;
+        border-right-color: #21ab64;
+    }
+    
+    .footer_top .widget_recent_entries>ul>li {
+    padding: 0 0 0;
+    }
