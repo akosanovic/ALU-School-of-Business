@@ -114,6 +114,48 @@ footer .footer_top .widget_recent_entries > ul > li {
   background-color: #d00d2d;
 }
 
+/*=========== Progress Left Percent  ===========*/
+.progress-left-percent {
+  /* Flex Slider */
+}
+.progress-left-percent h4.section-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.progress-left-percent h4.progress_title {
+  font-size: 20;
+  font-weight: 700;
+}
+.progress-left-percent .q_progress_bar {
+  overflow: initial;
+}
+.progress-left-percent .q_progress_bar .progress_number {
+  position: relative;
+  top: 5px;
+}
+.progress-left-percent .q_progress_bar .progress_title_holder {
+  margin: 0;
+}
+.progress-left-percent .flexslider {
+  margin-bottom: 0;
+}
+.progress-left-percent .flexslider .slides img {
+  display: block;
+  /* Positioning image */
+  max-width: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+@media screen and (min-width: 760px) {
+  .progress-left-percent .flexslider .slides img {
+    height: 100%;
+    width: auto;
+  }
+}
+.progress-left-percent .flexslider ol.flex-control-nav {
+  margin-top: 20px !important;
+}
+
 #bitnami-banner {
   display: none;
 }

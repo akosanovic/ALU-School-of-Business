@@ -1,0 +1,49 @@
+
+
+/*=========== Progress Left Percent  ===========*/
+.progress-left-percent {
+    h4.section-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    h4.progress_title {
+        font-size: 20;
+        font-weight: 700;
+    }
+    .q_progress_bar {
+        overflow: initial;
+        .progress_number {
+            position: relative;
+            top: 5px;
+        }
+        .progress_title_holder{
+            margin:0;
+        }
+    }
+
+    /* Flex Slider */
+    .flexslider {
+        margin-bottom: 0;
+
+        .slides img {
+            display: block;
+            
+            /* Positioning image */
+            max-width: 100%;
+            object-fit: cover;
+            object-position: right; 
+            @media screen and (min-width: 760px) {
+                height: 100%;
+                width: auto;
+            }       
+        }
+
+        ol.flex-control-nav {
+            margin-top: 20px !important;
+        }
+    }
+}
+    
+
+
